@@ -6,6 +6,7 @@ import Login from '../Componentes/Data/Login';
 import About from '../Paginas/About';
 import App from '../App';
 import NotFound from '../Paginas/NotFound';
+import Soporte from '../Paginas/Soporte';
 
 function Rutas() {
   return (
@@ -18,6 +19,7 @@ function Rutas() {
 
             
             <Route exact path="/" element={<Home />} />
+            <Route exact path="/Soporte" element={<Soporte />} />
             <Route exact path="/Login" element={<Login />} />
             <Route exact path="/About" element={<About />} />
             <Route exact path='/app' element={<App/>}/>
