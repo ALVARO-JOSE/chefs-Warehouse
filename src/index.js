@@ -8,13 +8,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Aplicacion from './Aplicacion';
 import Home from './Paginas/Home';
+import Soporte from './Paginas/Soporte';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Aplicacion/>
+  <Aplicacion/>
   </React.StrictMode>
 );
-//<App /> <Home/>
+//<App /> <Home/> <Aplicacion/>
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
