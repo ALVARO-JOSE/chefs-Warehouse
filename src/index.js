@@ -8,11 +8,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Aplicacion from './Aplicacion';
 import Home from './Paginas/Home';
-import Soporte from './Paginas/Soporte';
+import PRUEVASS from './PRUEVASS.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Aplicacion/>
+   <Aplicacion/>
   </React.StrictMode>
 );
 //<App /> <Home/> <Aplicacion/>
