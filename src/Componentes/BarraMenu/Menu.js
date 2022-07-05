@@ -36,7 +36,7 @@ function Menu() {
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a className="dropdown-item" href="/Cat1">Mexicanas</a></li>
             <li><a className="dropdown-item" href="/Cat2">Italianas</a></li>
-            <li><a className="dropdown-item" href="/Cat3">Another action</a></li>
+            <li><a className="dropdown-item" href="/Cat3">Francesas </a></li>
             <li><a className="dropdown-item" href="/Cat4">Another action</a></li>
             <li><a className="dropdown-item" href="/Cat5">Another action</a></li>
             <li><hr className="dropdown-divider"/></li>
