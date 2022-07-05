@@ -1,0 +1,60 @@
+.conte {
+  
+    
+    background-image: url("/src/imagenes/fondos/FondoC.jpg");
+}
+
+
+.cont{
+    padding: 0.50%;  
+    
+    background-size: 100% 100%;  
+    background-image: url("/src/imagenes/fondos/F2.jpg") ;  
+}
+
+
+.card-text{
+
+    color: black;
+    
+}
+.d-grid {
+    padding: 5%;
+    padding-left: 1%;
+    padding-right: 50%;
+}
+.card{
+    color: black;
+}
+
+.d-block{
+    border-radius: 8px;
+    border-radius: 10px;
+  padding: 2px;
+  width: 50px;
+
+}
+.card{
+    color: rgb(1, 17, 17);
+    border: saddlebrown;
+    backface-visibility: hidden;
+    font-weight: bold;
+}
+
+.collapse{
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.card-title{
+    color: black;
+
+
+}
+.col-sm-6{
+    
+    
+  
+}
+
+
+

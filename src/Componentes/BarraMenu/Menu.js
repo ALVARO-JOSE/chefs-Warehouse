@@ -1,11 +1,11 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route,Link } from 'react-router-dom';
 import logo from '../BarraMenu/logo.png';
 
 function Menu() {
     return (
         <div className='Menu'>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
 
 
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,15 +31,24 @@ function Menu() {
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Menu
+            Categorias
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><a className="dropdown-item" href="/Cat1">Mexicanas</a></li>
+            <li><a className="dropdown-item" href="/Cat2">Another action</a></li>
+            <li><a className="dropdown-item" href="/Cat3">Another action</a></li>
+            <li><a className="dropdown-item" href="/Cat4">Another action</a></li>
+            <li><a className="dropdown-item" href="/Cat5">Another action</a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
+            <li><a className="dropdown-item" href="#">Alimentacion</a></li>
           </ul>
         </li>
+
+
+
+        
+
+
         <li className="nav-item">
           <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
@@ -71,7 +80,7 @@ function Menu() {
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
         </div>
 
         

@@ -6,7 +6,15 @@ import Login from '../Componentes/Data/Login';
 import About from '../Paginas/About';
 import App from '../App';
 import NotFound from '../Paginas/NotFound';
-import Soporte from '../Paginas/Soporte';
+import Cat1 from '../Paginas/Categorias/Cat1';
+import Cat2 from '../Paginas/Categorias/Cat2';
+import Cat3 from '../Paginas/Categorias/Cat3';
+import Cat4 from '../Paginas/Categorias/Cat4';
+import Cat5 from '../Paginas/Categorias/Cat5';
+
+
+
+
 
 function Rutas() {
   return (
@@ -19,7 +27,11 @@ function Rutas() {
 
             
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/Soporte" element={<Soporte />} />
+            <Route exact path="/Cat1" element={<Cat1 />} />
+            <Route exact path="/Cat2" element={<Cat2 />} />
+            <Route exact path="/Cat3" element={<Cat3 />} />
+            <Route exact path="/Cat4" element={<Cat4 />} />
+            <Route exact path="/Cat5" element={<Cat5 />} />
             <Route exact path="/Login" element={<Login />} />
             <Route exact path="/About" element={<About />} />
             <Route exact path='/app' element={<App/>}/>
