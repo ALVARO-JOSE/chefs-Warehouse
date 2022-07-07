@@ -10,6 +10,7 @@ function Home() {
         <div className='Home'>
             <header className="Home-header">
                 <img src={logo} className="Home-logo" alt="logo" />
+                
                 <div className="input-block">
                     <form method="get" action={Login}>
                         <button type="submit" className="input-submit">Enter</button>

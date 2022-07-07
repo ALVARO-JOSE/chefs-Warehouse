@@ -54,7 +54,7 @@ function Login() {
                 </div>
 
                 <div className="input-block">
-                    <form method="get" action="/Rutas">
+                    <form method="get" action="/Registro">
                         <button type="input-submit" className="input-submit-b">Registrar</button>
                     </form>
                 </div>
