@@ -55,6 +55,7 @@ const Guardar=async()=>{
                 </div>
 
 
+
                 <div class="form-floating mb-3">
                     <input
                         type="email"
@@ -84,7 +85,7 @@ const Guardar=async()=>{
 
                 
                   
-                        <button type="input-submit" className="input-submit" >Iniciar</button>
+                        <button type="input-submit" className="input-submit" >Registrar</button>
                     
                 
             </form>
