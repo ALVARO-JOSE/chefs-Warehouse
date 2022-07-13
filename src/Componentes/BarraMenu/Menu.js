@@ -1,8 +1,27 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route,Link } from 'react-router-dom';
+import { signOut } from 'firebase/auth';
+import { auth } from '..//../fire';
 import logo from '../BarraMenu/logo.png';
 
-function Menu() {
+   function Menu({
+    user,
+    setAuthState,
+    setUser
+}) {
+
+    const signOutHandler = () => {
+        signOut(auth)
+        .then(() => {
+            setUser(null);
+            setAuthState('login');
+        })
+        .catch((err) => console.log(err));
+    }
+
+
+
+
+
     return (
         <div className='Menu'>
 
@@ -47,39 +66,18 @@ function Menu() {
 
 
         
-
-
-        <li className="nav-item">
-          <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+        <form className="form-inline">
+          
+    <button className="btn btn-outline-success my-2 my-sm-0" onClick={signOutHandler} type="submit">Salir</button>
+  </form>
+  
+        
+       
       </ul>
       
     </div>
   </div>
 </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </div>
 

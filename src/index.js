@@ -7,15 +7,11 @@ import 'bootstrap/dist/js/bootstrap.esm';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/js/bootstrap.bundle';
-import Aplicacion from './Aplicacion';
-import Home from './Paginas/Home';
-import PRUEVASS from './PRUEVASS.js';
-import Registro from './Componentes/Data/Registro';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   
-   <Aplicacion/>
+   <App/>
   </React.StrictMode>
 );
 //<App /> <Home/> <Aplicacion/> <Registro/>

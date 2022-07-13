@@ -1,0 +1,16 @@
+
+.Login{
+
+    width: auto;
+    padding: 10%;
+    background-image: url("../auth/log.jpg");
+    background-repeat: repeat-x;
+    background-position: 0 0;
+}
+.form{
+    width: 400px;
+    padding: 10px;
+    border-radius:20px;
+    margin: auto;
+   
+}
