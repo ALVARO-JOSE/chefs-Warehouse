@@ -19,12 +19,16 @@ export default function Home({
 
     return (
    
+
+
+
+
+
+        
         <div className='flex flex-col items-center text-5xl font-bold text-center'>
      
-        
-            This is the home screen 
-            {user}
 
+           
             
 
 

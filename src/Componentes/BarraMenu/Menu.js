@@ -1,5 +1,6 @@
 import React from 'react'
 import { signOut } from 'firebase/auth';
+
 import { auth } from '..//../fire';
 import logo from '../BarraMenu/logo.png';
 
@@ -59,23 +60,35 @@ import logo from '../BarraMenu/logo.png';
             <li><a className="dropdown-item" href="/Cat4">España</a></li>
             <li><a className="dropdown-item" href="/Cat5">Coreano</a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Alimentacion</a></li>
+            <li><a className="dropdown-item" href="/Alimentacion">Alimentacion</a></li>
           </ul>
         </li>
 
 
 
         
-        <form className="form-inline">
-          
-    <button className="btn btn-outline-success my-2 my-sm-0" onClick={signOutHandler} type="submit">Salir</button>
-  </form>
-  
         
-       
       </ul>
       
     </div>
+           
+
+
+
+    <form className="form-inline">
+    <button className="btn btn-outline-success my-2 my-sm-0" onClick={signOutHandler} type="submit">Salir</button>
+  </form>
+
+    <div className="card">
+  <div className="card-body">
+    {user} 
+  </div>
+</div>
+
+
+
+
+
   </div>
 </nav>
 

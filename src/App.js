@@ -30,6 +30,8 @@ function App() {
   if(authState === 'login') return <Login setAuthState={setAuthState} setUser={setUser}/>
   if(authState === 'register') return <Register setAuthState={setAuthState} setUser={setUser}/> 
   if(user) return <Home user={user} setAuthState={setAuthState} setUser={setUser}/>
+ 
+  
   
 }
 

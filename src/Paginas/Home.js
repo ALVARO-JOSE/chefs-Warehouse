@@ -4,7 +4,7 @@ import { BrowserRouter as Link, } from 'react-router-dom';
 import logo from '../imagenes/logos/logo.png';
 import '../Paginas/Home.css';
 function Home() {
-    const Login = "/Login";
+    const Login = "/Alimentacion";
     return (
 
         <div className='Home'>

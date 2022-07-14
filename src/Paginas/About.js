@@ -20,8 +20,8 @@ function About() {
 
               <img src={Imag1} class="img-thumbnail" alt="Cinque Terre" width="150px" height="150px" margin="auto" display="inline-block" />
 
-              <div class="card-body ">
-                <p class="card-text">ALVARO JOSE PEREZ  VELAZQUEZ</p>
+              <div className="card-body ">
+                <p className="card-text">ALVARO JOSE PEREZ  VELAZQUEZ</p>
                 <p>Ingeniero en sistemas computacionales</p>
                 <p>ENCARGADO DE LA EMPRESA</p>
 

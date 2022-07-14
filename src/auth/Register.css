@@ -1,5 +1,5 @@
 
-.Login{
+.Register{
 
     width: auto;
     padding: 10%;
@@ -48,7 +48,7 @@
 }
 .sucess{
     background: #c1ffb9;
-    color: #16790d;
+    color: #1e331c;
 }
 
 .input-block{
@@ -80,15 +80,16 @@
     box-sizing: border-box;
 }
 
-.input-submit{
-    padding: 15px 200px;
+.input-submit-c{
+    padding: 8px 20px;
     border: 0;
     font-size: 1.1em;
-    background: #258bad;
+    background: #a318be;
     color: #fff;
     border-radius: 3px;
     outline: 0;
     transition: 0.15 ease-in-out background;
+    
 }
 
 .input-submit-a{
