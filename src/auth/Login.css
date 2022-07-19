@@ -7,16 +7,7 @@
     background-repeat: repeat-x;
     background-position: 0 0;
 }
-.regi{
 
-
-    width: auto;
-    padding: 10px;
-
-    background-image: url("");
-
-
-}
 
 .form{
     width: 50%;
@@ -25,6 +16,10 @@
     margin: auto;
     background-color:rgba(113, 216, 241, 0.774);
     background-color: transparent;
+
+
+
+    
 }
 
 .form-title{
@@ -130,3 +125,5 @@
 .input-submit:hover{
     background: #24a4cf;
 }
+
+

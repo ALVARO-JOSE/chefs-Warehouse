@@ -9,22 +9,24 @@ function About() {
 
 
 
+    
       <div className="card-body">
-        <br></br>
-        <hr></hr>
-        <br />
-        <div class="container">
-          <div class="row ">
+                <br></br>
+                <hr></hr>
+               
+                <div class="container">
+                    <div class="row ">
 
-            <div class="col-sm-8">
+                        <div class="col-sm-4">
 
-              <img src={Imag1} class="img-thumbnail" alt="Cinque Terre" width="150px" height="150px" margin="auto" display="inline-block" />
+                            <img src={Imag1} class="img-thumbnail" alt="Cinque Terre" width="150px" height="150px" margin="auto" display="inline-block" />
 
-              <div className="card-body ">
-                <p className="card-text">ALVARO JOSE PEREZ  VELAZQUEZ</p>
-                <p>Ingeniero en sistemas computacionales</p>
-                <p>ENCARGADO DE LA EMPRESA</p>
-
+                            <div class="card-body ">
+                                <p class="card-text">ALVARO JOSE PEREZ  VELAZQUEZ</p>
+                                <p>Ingeniero en sistemas computacionales</p>
+                                <p>ENCARGADO DE LA EMPRESA
+                                   (Programador) 
+                                </p>
                 <p>  <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60" />
                   <a href="https://www.facebook.com/alvarojose.perezvelazquez/" class="button">Alvaro jose</a>
 
@@ -37,7 +39,7 @@ function About() {
 
 
 
-            <div className="col-sm-4">
+            <div className="col-sm-8">
               <div class="container-fluid bg-3 text-center">
                 <img src={imag2} class="img-thumbnail " alt="Cinque Terre" width="150px" height="150px" paddig="250px" />
 

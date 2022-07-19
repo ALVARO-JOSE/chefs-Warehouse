@@ -2,7 +2,7 @@ import * as React from 'react';
 import Login from "./auth/Login";
 import Register from "./auth/Register";
 import Home from './pages/Home';
-
+import Menu from './Componentes/BarraMenu/Menu';
 
 import { auth } from './fire';
 import { onAuthStateChanged } from 'firebase/auth'
@@ -30,6 +30,7 @@ function App() {
   if(authState === 'login') return <Login setAuthState={setAuthState} setUser={setUser}/>
   if(authState === 'register') return <Register setAuthState={setAuthState} setUser={setUser}/> 
   if(user) return <Home user={user} setAuthState={setAuthState} setUser={setUser}/>
+  if(user) return <Menu user={user} setAuthState={setAuthState} setUser={setUser}/>
  
   
   

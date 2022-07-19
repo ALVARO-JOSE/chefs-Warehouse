@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.esm';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/js/bootstrap.bundle';
-import Alimentacion from './Paginas/Categorias/Alimentacion';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -8,12 +8,7 @@ class Alimentacion extends Component {
 
                
 
-                <div class="card" width="500px">
-                    <img class="card-img-top" src="" alt="Card image" height="400px" />
-                    <div class="card-img-overlay">
-                    </div>
-                </div>
-
+                
                 <h1 className=" display-3 bg-warning text-white text-center "> NOTICIAS DEL DIA</h1>
                 
          

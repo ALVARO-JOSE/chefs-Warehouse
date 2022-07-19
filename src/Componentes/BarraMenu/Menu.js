@@ -80,6 +80,7 @@ import logo from '../BarraMenu/logo.png';
   </form>
 
     <div className="card">
+
   <div className="card-body">
     {user} 
   </div>
@@ -89,8 +90,20 @@ import logo from '../BarraMenu/logo.png';
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   </div>
 </nav>
+
 
         </div>
 
