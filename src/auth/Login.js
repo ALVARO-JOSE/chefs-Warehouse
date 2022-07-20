@@ -24,9 +24,12 @@ function Login({
     }
 
   return (
+
+    <header>
+    
     <div className="Login">
-      <div className="form">
-      <div className=' '>
+      <div className="formm">
+      
             <h1 className='text-5xl font-semibold'>Bienvenido de nuevo</h1>
             <p className='font-medium text-lg text-gray-500 mt-4'>¡Bienvenido de nuevo! Por favor, introduzca sus datos.</p>
             <div className='mt-8'>
@@ -105,9 +108,10 @@ function Login({
 
             </div>
         </div>
-      </div>
+      
       
     </div>
+    </header>
   );
 }
 
