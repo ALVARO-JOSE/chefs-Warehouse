@@ -1,12 +1,12 @@
 import React from 'react'
-
+import '../BarraMenu/Footer.css'
 function Footer() {
     return (
         <div>
 
 
 
-            <footer class="container-fluid text-center   ">
+            <footer class="containe-flui text-center   ">
 
                 <h2>SISTEMA DE CAMPO INTELIGENTE </h2>
                 <p>Ingenieria en Sistemas Computacionales</p>

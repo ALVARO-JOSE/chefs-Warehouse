@@ -1,13 +1,15 @@
  
-header {
-    height: 100%;
+body {
+    
+    max-width: 100%;
     background-repeat: no-repeat;
     background: url(../auth/log.jpg) no-repeat center center fixed;
     background-size: 100% 100%;
+   
 }
 
-@media only screen and (max-width: 767px) {
-    header {
+@media only screen and (max-width: 800px) {
+    body{
       background-image: url(../auth/log.jpg);
     }
   }
@@ -15,7 +17,6 @@ header {
 .Login{
     width: auto;
     padding: 10%;
-    
 }
 .formm{
     width: 100%;

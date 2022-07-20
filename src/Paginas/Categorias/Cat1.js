@@ -13,11 +13,6 @@ function Cat1() {
 
 
     <div class="conte" >
-
-
-
-
-
       <div className="container p-1 my-3 bg-dark text-white">
         <div className="cont" >
           <div className="row g-0">

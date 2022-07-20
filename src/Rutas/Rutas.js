@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from '../Componentes/Layout/Layout';
 import Home from '../Paginas/Home';
+
 import About from '../Paginas/About';
 import App from '../App';
 import NotFound from '../Paginas/NotFound';
@@ -24,7 +25,8 @@ function Rutas() {
 
 
   return (
-    <div>
+
+    <div >
 
 <Router>
        
@@ -32,7 +34,7 @@ function Rutas() {
           <Routes>
 
             
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/" element={<Home/>} />
             <Route exact path="/Cat1" element={<Cat1 />} />
             <Route exact path="/Cat2" element={<Cat2 />} />
             <Route exact path="/Cat3" element={<Cat3 />} />

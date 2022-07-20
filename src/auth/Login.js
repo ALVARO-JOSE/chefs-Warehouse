@@ -25,8 +25,8 @@ function Login({
 
   return (
 
-    <header>
     
+    <body>
     <div className="Login">
       <div className="formm">
       
@@ -111,7 +111,7 @@ function Login({
       
       
     </div>
-    </header>
+    </body>
   );
 }
 

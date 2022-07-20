@@ -3,49 +3,21 @@
 
     width: auto;
     padding: 10%;
-    background-image: url("../auth/log.jpg");
-    background-repeat: repeat-x;
-    background-position: 0 0;
+   
 }
-.regi{
 
-
-    width: auto;
-    padding: 10px;
-
-    background-image: url("");
-
-
-}
 
 .form{
-    width: 50%;
-    padding: 10px;
-    border-radius:20px;
-    margin: auto;
-    background-color:rgba(113, 216, 241, 0.774);
+    width: 100%;
+    max-width: 600px;
+    margin:0 auto;
+    background-color: transparent;
     background-color: transparent;
 }
 
-.form-title{
-    text-align: center;
-    margin-bottom: 16px;
-    font-size: 2em;
-}
 
-.error-block{
-    padding: 12px;
-    width: 100%;
-    background: #ffb9c5;
-    color: brown;
-    border-radius: 3px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-    display: none;
-}
-.error{
-    font-size: 1.1em;
-}
+
+
 .sucess{
     background: #c1ffb9;
     color: #1e331c;
@@ -62,12 +34,7 @@
     font-size: 1.1em;
     text-align: left;
 }
-.input-info{
-    text-align: left;
-    margin-top: -18px;
-    margin-bottom: 24px;
-    color: #888;
-}
+
 .input{
     width: 100%;
     border-radius: 3px;
@@ -92,42 +59,3 @@
     
 }
 
-.input-submit-a{
-    width: 30%;
-    
-    position: relative;
-    left: -50%;
-   
-    padding: 8px 20px;
-    border: 0;
-    font-size: 1.1em;
-    background: #258bad;
-    color: rgb(255, 254, 254);
-    border-radius: 50%;
-    outline: 0;
-    transition: 0.15 ease-in-out background;
-}
-.input-submit-b{
-    
-    
-    position: relative;
-    left: 50%;
-    
-    padding: 8px 20px;
-    border: 0;
-    font-size: 1.1em;
-    background: #258bad;
-    color: rgb(255, 254, 254);
-    border-radius: 50%;
-    outline: 0;
-    transition: 0.15 ease-in-out background;
-}
-
-
-
-
-
-
-.input-submit:hover{
-    background: #24a4cf;
-}
