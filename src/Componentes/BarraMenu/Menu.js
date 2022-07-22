@@ -1,6 +1,6 @@
 import React from 'react'
 import { signOut } from 'firebase/auth';
-
+import Rutas from '../../Rutas/Rutas';
 import { auth } from '..//../fire';
 import logo from '../BarraMenu/logo.png';
 
@@ -24,6 +24,8 @@ import logo from '../BarraMenu/logo.png';
 
 
     return (
+<div>
+
         <div className='Menu'>
 
 
@@ -107,7 +109,9 @@ import logo from '../BarraMenu/logo.png';
 
         </div>
 
-        
+   <Rutas/>        
+
+        </div>
     )
 }
 

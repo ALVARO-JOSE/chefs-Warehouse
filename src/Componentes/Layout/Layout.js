@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from '../BarraMenu/Menu';
 import Footer from '../BarraMenu/Footer';
-import './Layout.css';
+
 
 function Layout({ children }) {
   return (
@@ -9,7 +9,7 @@ function Layout({ children }) {
 
 
 
-      <Menu/>
+     
       {children}
       <Footer />
     </div>
