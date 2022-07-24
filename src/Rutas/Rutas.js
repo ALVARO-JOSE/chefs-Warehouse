@@ -1,6 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from '../Componentes/Layout/Layout';
+
+import { WebsiteList } from "../components/WebsiteList";
+import { WebsiteForm } from "../components/WebsiteForm";
+
+import Layout from "../components/Layout";
 import Home from '../Paginas/Home';
 
 import About from '../Paginas/About';
@@ -30,25 +34,31 @@ function Rutas() {
 
 <Router>
        
-        <Layout>
+       
           <Routes>
 
-            
-            <Route exact path="/" element={<Home/>} />
-            <Route exact path="/Cat1" element={<Cat1 />} />
-            <Route exact path="/Cat2" element={<Cat2 />} />
-            <Route exact path="/Cat3" element={<Cat3 />} />
-            <Route exact path="/Cat4" element={<Cat4 />} />
-            <Route exact path="/Cat5" element={<Cat5 />} />
-            <Route exact path="/Alimentacion" element={<Alimentacion/>} />
-            <Route exact path="/About" element={<About />} />
-            <Route exact path='/app' element={<App/>}/>
-            <Route exact path="*" element={<NotFound />} />
+          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<WebsiteList />} />
+          <Route path="add" element={<WebsiteForm />} />
+          <Route path="edit/:id" element={<WebsiteForm />} />
+          <Route exact path="/Home" element={<Home/>} />
+          <Route exact path="/Cat1" element={<Cat1 />} />
+          <Route exact path="/Cat2" element={<Cat2 />} />
+          <Route exact path="/Cat3" element={<Cat3 />} />
+          <Route exact path="/Cat4" element={<Cat4 />} />
+          <Route exact path="/Cat5" element={<Cat5 />} />
+          <Route exact path="/Alimentacion" element={<Alimentacion/>} />
+          <Route exact path="/About" element={<About />} />
+          <Route exact path='/app' element={<App/>}/>
+          <Route exact path="*" element={<NotFound />} />
+
+           </Route>
+
+
 
 
 
           </Routes>
-        </Layout>
       </Router>
 
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import { signOut } from 'firebase/auth';
-import Rutas from '../../Rutas/Rutas';
+
 import { auth } from '..//../fire';
 import logo from '../BarraMenu/logo.png';
-
+import { Link } from "react-router-dom";
    function Menu({
     user,
     setAuthState,
@@ -46,11 +46,15 @@ import logo from '../BarraMenu/logo.png';
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
+          <a className="nav-link active" aria-current="page" href="/Home">Home</a>
         </li>
+
+        
+      
         <li className="nav-item">
           <a className="nav-link" href="/About">Soporte</a>
         </li>
+
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categorias
@@ -65,6 +69,27 @@ import logo from '../BarraMenu/logo.png';
             <li><a className="dropdown-item" href="/Alimentacion">Alimentacion</a></li>
           </ul>
         </li>
+
+
+
+
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            nuevo
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <Link className="dropdown-item" to="/add">|Agregar |</Link>
+          <Link className="dropdown-item" to="/">|Actualizacion |</Link>
+            
+            
+          </ul>
+        </li>
+
+
+
+
+       
+      
 
 
 
@@ -109,7 +134,7 @@ import logo from '../BarraMenu/logo.png';
 
         </div>
 
-   <Rutas/>        
+        
 
         </div>
     )

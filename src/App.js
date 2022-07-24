@@ -9,7 +9,6 @@ import { onAuthStateChanged } from 'firebase/auth'
 
 function App() {
   const [user, setUser] = React.useState(null);
-  const [use, setUse] = React.useState(null);
   const [authState, setAuthState] = React.useState(null)
 
   React.useEffect(() => {
@@ -30,8 +29,7 @@ function App() {
   if(authState === null) return <div className='font-bold text-center text-5xl'>loading...</div>
   if(authState === 'login') return <Login setAuthState={setAuthState} setUser={setUser}/>
   if(authState === 'register') return <Register setAuthState={setAuthState} setUser={setUser}/> 
-  //if(user) return <Home user={user} setAuthState={setAuthState} setUser={setUser}/>
-  if(user) return <Menu user={user} setAuthState={setAuthState} setUser={setUser}/>
+  if(user) return <Home user={user} setAuthState={setAuthState} setUser={setUser}/>
  
   
   
